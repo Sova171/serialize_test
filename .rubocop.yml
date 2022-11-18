@@ -1,18 +1,7 @@
 Documentation:
   Enabled: false
 
-Metrics/CyclomaticComplexity:
+AllCops:
   Exclude:
-    - "bin/bundle"
-
-Metrics/MethodLength:
-  Exclude:
-    - "bin/bundle"
-
-Layout/LineLength:
-  Exclude:
-    - "bin/bundle"
-
-Metrics/PerceivedComplexity:
-  Exclude:
+    - 'db/schema.rb'
     - "bin/bundle"
